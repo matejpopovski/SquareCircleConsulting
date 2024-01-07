@@ -36,19 +36,29 @@
 					<p>608.222.8216</p>
 
 					<h1>E-mail</h1>
-					<p>
-						<! ––
-						<a href="contact@squarecircleconsulting.net"
-							>contact</a
-						>
-						––>
-					</p>
+					<!-- generate email field -->
+					<script type="text/javascript">
+						var username = 'contact';
+						var hostname = 'squarecircleconsulting';
+						var hostext = '.net';
+						var linktext = username + '@' + hostname + hostext;
+						document.write(
+							'<a href=' +
+								'mail' +
+								'to:' +
+								linktext +
+								'>' +
+								linktext +
+								'</' +
+								'a>',
+						);
+					</script>
 
 					<h1>Mail</h1>
-					<p> 
+					<p>
 						Square Circle Consulting, LLC<br />
 						PO Box 14287<br />
-						Madison, WI 53708
+						Madison, WI 53708 <br />
 					</p>
 				</div>
 			</main>
